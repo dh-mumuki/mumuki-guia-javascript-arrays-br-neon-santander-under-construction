@@ -1,0 +1,23 @@
+O que acabamos de ver é que podemos facilmente modelar conjuntos de coisas. E isso porque em JavaScript, como acabamos de conhecer, temos dados do tipo _array_, também conhecido como vetor.
+
+Matrizes podem ter vários elementos, não há limite!
+
+E não é só isso, a ordem é importante!
+Por exemplo: “[" hello "," world "]” não é o mesmo que “[" world "," hello "]”, ambos têm os mesmos elementos, mas em diferentes posições.
+
+
+Tente as seguintes consultas no console:
+>
+> * `arraysIguais(["olá", "mundo"], ["mundo", "olá"])`
+> * `arraysIguais(["olá", "mundo"], ["olá", "mundo"])`
+> * `arraysIguais(["olá", "mundo"], ["olá", "todo", "o", "mundo"])`
+> * `arraysIguais(["olá"], ["olá", "mundo"])`
+> * `["olá", "mundo"] === ["mundo", "olá"]`
+> * `pessoas`
+> * `["mara", "juliana"] === pessoas`
+> * `pessoas === pessoas`
+
+> Que conclusões você pode tirar?
+
+
+
